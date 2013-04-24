@@ -38,4 +38,7 @@ wget_if_missing http://protobuf.googlecode.com/files/protobuf-2.4.1.tar.gz
 # cmake
 wget_if_missing http://www.cmake.org/files/v2.8/cmake-2.8.10.2.tar.gz
 
+# libev
+wget_if_missing http://dist.schmorp.de/libev/libev-4.15.tar.gz
+
 echo "success."
