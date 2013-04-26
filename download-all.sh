@@ -41,4 +41,7 @@ wget_if_missing http://www.cmake.org/files/v2.8/cmake-2.8.10.2.tar.gz
 # libev
 wget_if_missing http://dist.schmorp.de/libev/libev-4.15.tar.gz
 
+[ -e ./uriparser-0.7.7.tar.bz2 ] || die "please download uriparser using \
+    links http://sourceforge.net/projects/uriparser/files/Sources/0.7.7/uriparser-0.7.7.tar.bz2/download"
+
 echo "success."
